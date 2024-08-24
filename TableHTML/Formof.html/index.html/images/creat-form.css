@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Gupter:wght@400;500;700&family=New+Amsterdam&family=Playwrite+CU:wght@100..400&display=swap');
+
+*{
+    margin: 0px ;
+    box-sizing: border-box;
+    font-family: "New Amsterdam";
+}
+:root{
+    --purple-color:#5770A6;
+    --blue-color:#6DB7EF;
+    --red-color:#E06555;
+    --main-font:"New Amsterdam";
+
+}
+
+.container{
+    width: 60%;
+    height: 80vh;
+    background-color:blanchedalmond;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 30px 20px;
+    
+}
+.container .form-container{
+    width: 100%;
+    height: 70%;
+   background-color:beige;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+h2{
+    
+    text-align: center;
+}
+.form-container .social,.form-login{
+    width:48%;
+    height: 95%;
+   /* background-color: blueviolet;*/
+
+    
+}
+.form-container .social{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ padding: 10px;
+}
+.option .line{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid black;
+    height: 270px;
+  
+
+}
+.line .v1-circle{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    border: 2px solid rgb(84, 81, 81);
+    border-radius: 50%;
+    padding: 8px 10px;
+   background-color: azure;
+  
+}
+
+.social .social-btn{
+    width: 100%;
+    height: 30%;
+    border-radius: 5px;
+   
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 10px;
+    font-size: 30px;
+}
+
+
+.social .a{
+    background-color: var(--purple-color)
+
+}
+.social .b{
+    background-color:var(--blue-color);
+}
+.social .c{
+    background-color:var(--red-color);
+}
+.form-login .manually{
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+}
+input[type=submit]{
+background-color:greenyellow;
+padding: 10px 100px;
+margin-top: 20px;
+}
+input[type=submit]:hover{
+    background-color:rgb(68, 110, 5);
+   
+ }
+ input[type=text]{
+    width: 300%;
+    height: 10vh;
+   
+    padding: 12px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    
+}
+input[type=password]{
+    width: 300%;
+    height: 10vh;
+    padding: 12px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    
+}
+.botom-comtainer .col{
+float :left;
+width: 50%;
+margin: auto;
+padding: 0 50px;
+margin-top: 6px;
+
+}
+.rowa\:after{
+content: "";
+display: table;
+clear: both;
+
+}
+
+
+
+
